@@ -6229,7 +6229,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #bd5d38 !important;
+  background-color: #1c325f !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -10339,5 +10339,56 @@ section.resume-section .resume-section-content {
    60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
   100% { transform: rotate( 0.0deg) }
 }
+/* General body styling */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 14px; /* Smaller base font size */
+  line-height: 1.6;
+  margin: 20px;
+  color: #333;
+}
 
+/* Styling for the main heading */
+h1 {
+  font-size: 24px; /* Smaller size for the main heading */
+  color: #444;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Styling for category headings */
+h2 {
+  font-size: 18px; /* Smaller size for category headings */
+  color: #555;
+  margin-bottom: 10px;
+}
+
+/* Styling for the category container */
+.category {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+/* Styling for the blog links */
+.category ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.category ul li {
+  margin: 5px 0;
+}
+
+.category ul li a {
+  text-decoration: none;
+  color: #007BFF;
+  font-size: 14px; /* Smaller font size for links */
+}
+
+.category ul li a:hover {
+  text-decoration: underline;
+}
 
